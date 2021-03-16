@@ -110,7 +110,6 @@ body {
     margin: 0;
     padding: 40px 0 0 0;
     width: 100%;
-    border: 1px solid red;
     background-image: url(../img/header_bg_image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,13 +154,12 @@ body {
     margin: 0 63px 0 219px;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid green;
     box-sizing: border-box;
 }
 
 .top_menu_list {
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 18px 0 0 0;
     display: flex;
     list-style-type: none;
     box-sizing: border-box;
@@ -333,6 +331,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .top_spin_wrp_title_mini {
@@ -375,7 +374,7 @@ body {
 }
 
 .top_spin_wrp_btn {
-    padding: 21px 38px;
+    padding: 16px 37px;
     width: 170px;
     height: 53px;
     background-color: #998675;
