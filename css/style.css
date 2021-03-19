@@ -564,7 +564,7 @@ body {
 }
 
 .info_idea {
-    height: 700px;
+    min-height: 700px;
     margin: 0;
     padding: 83px 0 0 0;
     display: flex;
@@ -606,4 +606,83 @@ body {
     font-style: normal;
     color: #8c8c8c;
     text-align: center;
+}
+
+.hype {
+    margin: 0;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+}
+
+.hype_wrp {
+    margin: 0 470px 0 0;
+    padding: 0;
+    width: 530px;
+    box-sizing: border-box;
+}
+
+.hype_wrp_title {
+    margin: 0 0 3px 0;
+    padding: 0;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.hype_wrp_title_head {
+    margin: 0;
+    padding: 0;
+    color: #c7b299;
+}
+
+.hype_wrp_text {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-style: normal;
+    color: #615855;
+}
+
+.hype_btn {
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-bottom: 3px solid #736357;
+}
+
+.hype_btn:hover {
+    color: #998675;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.hype_btn:active {
+    color: #ffffff;
+    background-color: #998675;
+    box-sizing: border-box;
 }
