@@ -563,3 +563,47 @@ body {
     box-sizing: border-box;
 }
 
+.info_idea {
+    height: 700px;
+    margin: 0;
+    padding: 83px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: #fcfaf7;
+    background-image: url(../img/info_idea_browser_center.png),
+                      url(../img/info_idea_browser_left.png),
+                      url(../img/info_idea_browser_right.png);
+    background-repeat: no-repeat;
+    background-position-x: center, 30%, 70%;
+    background-position-y: bottom;
+    background-size: 770px 482px, 770px 400px, 770px 400px;
+    box-sizing: border-box;
+}
+
+.info_idea_title {
+    margin: 0 0 24px 0;
+    padding: 0;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-style: normal;
+    color: #555555;
+    text-align: center;
+}
+
+.info_idea_text {
+    margin: 0 0 40px 0;
+    padding: 0;
+    width: 760px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    font-style: normal;
+    color: #8c8c8c;
+    text-align: center;
+}
