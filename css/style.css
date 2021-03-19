@@ -231,8 +231,8 @@ body {
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 0px;
-    left: 30px;
+    top: 30px;
+    left: -175px;
     color: #fff;
     font-size: 16px;
     font-family: Arial;
@@ -240,7 +240,7 @@ body {
 }
 
 .top_search_btn:focus {
-    width: 150px;
+    width: 200px;
     min-height: 20px;
     transition: width 1s ease;
     border: 2px solid #fff;
@@ -482,3 +482,84 @@ body {
     border: 2px solid #ccbba8;
     transform: scale(1.2);
   }
+
+.content {
+
+}
+
+.wrp_card_service {
+    margin: 0;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card_service {
+    margin: 0 33px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.card_service:last-child {
+    margin: 0;
+}
+
+.card_service:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+
+.card_service:hover .card_service_image {
+    fill: #c7b299;
+}
+  
+.card_service:hover .card_service_title {
+    color: #c7b299;
+}
+  
+.card_service:hover:after {
+    background-color: #c7b299;
+}
+
+.card_service_image {
+    display: block;
+    fill: #555555;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+}
+
+.card_service_title {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-style: normal;
+    color: #555555;
+    box-sizing: border-box;
+}
+
+.card_service_text {
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: normal;
+    color: #8c8c8c;
+    box-sizing: border-box;
+}
+
