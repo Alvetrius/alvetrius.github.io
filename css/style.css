@@ -1512,7 +1512,11 @@ body {
 }
 
 .partners_link:hover .partners_link_img {
-    fill: #c7b299;
+    transform: scale(1.1);
+}
+
+.partners_link:active .partners_link_img {
+    transform: scale(0.9);
 }
 
 .vault {
@@ -1837,12 +1841,109 @@ body {
     margin: 0;
 }
 
-
-
 .vault_copyright {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     min-height: 111px;
     background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vault_copyright_info {
+    margin: 0 450px 0 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.vault_copyright_info_link {
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: #252525;
+    border-right: 1px solid #252525;;
+}
+
+.vault_copyright_info_link:nth-of-type(1) {
+    color: #555555;
+}
+
+.vault_copyright_info_link_end {
+    color: #959595;
+}
+
+.vault_copyright_info_link:last-of-type {
+    border: none;
+}
+
+.vault_copyright_info_link:hover {
+    color: #c7b299;
+}
+
+.vault_copyright_info_link:active {
+    color: #252525;
+}
+
+.vault_copyright_info_link:hover .vault_copyright_info_link_end {
+    color: #c7b299;
+}
+
+.vault_copyright_info_link:active  .vault_copyright_info_link:nth-of-type(1) {
+    color: #555555;
+}
+
+.vault_copyright_info_link:active .vault_copyright_info_link_end {
+    color: #959595;
+}
+
+.vault_copyright_wrp {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vault_copyright_wrp_link {
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: #555555;
+    border-right: 1px solid #252525;
+}
+
+.vault_copyright_wrp_link:last-of-type {
+    border: none;
+}
+
+.vault_copyright_wrp_link_end {
+    color: #959595;
+}
+
+.vault_copyright_wrp_link:hover {
+    color: #c7b299;
+}
+
+.vault_copyright_wrp_link:active {
+    color: #555555;
+}
+
+.vault_copyright_wrp_link:hover .vault_copyright_wrp_link_end {
+    color: #c7b299;
+}
+
+.vault_copyright_wrp_link:active .vault_copyright_wrp_link_end {
+    color: #959595;
 }
