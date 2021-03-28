@@ -1871,12 +1871,8 @@ body {
     line-height: 20px;
     font-weight: 300;
     font-style: normal;
-    color: #252525;
-    border-right: 1px solid #252525;;
-}
-
-.vault_copyright_info_link:nth-of-type(1) {
     color: #555555;
+    border-right: 1px solid #252525;;
 }
 
 .vault_copyright_info_link_end {
@@ -2205,14 +2201,46 @@ body {
     }
 
     .partners {
-
+        padding: 25px 25px;
+        flex-wrap: wrap;
+        background-size: cover;
+        min-height: auto;
     }
 
     .partners_link {
+        margin: 0 45px 20px 0;
+    }
 
+    .partners_link:nth-of-type(2) {
+        margin: 0 0 20px 0;
+    }
+
+    .partners_link:nth-of-type(3) {
+        margin: 0 45px 0 0;
     }
 
     .partners_link_img {
-        
+        width: 150px;
+        height: 80%;
+    }
+
+    .vault_news {
+        display: none;
+    }
+
+    .vault_copyright {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .vault_copyright_info {
+        margin: 0 0 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .vault_copyright_wrp {
+        width: 100%;
+        text-align: center;
     }
 }
