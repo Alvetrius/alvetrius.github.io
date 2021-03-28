@@ -2,9 +2,9 @@
     font-family: Raleway;
     src: url('../fonts/raleway-bold.eot');
     src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-Bold.woff2') format('woff2'),
-        url('../fonts/Raleway-Bold.woff') format('woff'),
-        url('../fonts/Raleway-Bold.ttf') format('truetype');
+        url('../fonts/raleway-bold.woff2') format('woff2'),
+        url('../fonts/raleway-bold.woff') format('woff'),
+        url('../fonts/raleway-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
