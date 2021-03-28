@@ -66,11 +66,11 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url('../fonts/montserrat-extraLight.eot');
-    src: url('../fonts/montserrat-extraLight.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/montserrat-extraLight.woff2') format('woff2'),
-        url('../fonts/montserrat-extraLight.woff') format('woff'),
-        url('../fonts/montserrat-extraLight.ttf') format('truetype');
+    src: url('../fonts/montserrat-extralight.eot');
+    src: url('../fonts/montserrat-extralight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/montserrat-extralight.woff2') format('woff2'),
+        url('../fonts/montserrat-extralight.woff') format('woff'),
+        url('../fonts/montserrat-extralight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
@@ -1950,7 +1950,7 @@ body {
 @media (max-width: 480px) {
 
     .container {
-        width: 480px;
+        width: 100%;
     }
 
     .top {
